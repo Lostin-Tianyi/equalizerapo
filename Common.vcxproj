@@ -99,6 +99,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw\include</IncludePath>
+    <ExternalIncludePath>D:\下载\Compressed\fftw-3.3.5-dll64;D:\下载\Compressed\libsndfile-1.2.2-win64\libsndfile-1.2.2-win64\include;D:\下载;D:\下载\Compressed\muparserx-4.0.12\muparserx-4.0.12\parser;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw\include</IncludePath>
@@ -108,6 +109,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw\include</IncludePath>
+    <ExternalIncludePath>D:\下载\Compressed\fftw-3.3.5-dll64;D:\下载\Compressed\libsndfile-1.2.2-win64\libsndfile-1.2.2-win64\include;D:\下载;D:\下载\Compressed\muparserx-4.0.12\muparserx-4.0.12\parser;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw\include</IncludePath>
